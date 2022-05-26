@@ -28,8 +28,7 @@ def eta(first_stop, second_stop, route_map):
     loc_1 = first_stop
     while loc_1 != second_stop:
         for loc in route_map.keys():
-            if loc_1 == loc[0]:
-                loc_1 = loc[1]
+            if loc_1 = loc[0]:
                 print(loc_1)
                 time += route_map[loc]['travel_time_mins']
     return time 
